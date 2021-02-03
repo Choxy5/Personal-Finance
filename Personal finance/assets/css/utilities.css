@@ -1,0 +1,129 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn-register {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  transition: all 0.8s;
+}
+
+.btn-register:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn-hero {
+  position: absolute;
+  padding: 20px 80px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-hero:hover {
+  transform: translateY(-5px);
+}
+
+.grid-why {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex__customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex__customers__men {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  order: 1;
+}
+
+.btn__play {
+  width: 165px;
+  height: 53px;
+  padding-right: 10px;
+}
+
+.btn__store {
+  width: 150px;
+  height: 50px;
+}
+
+.btn-contact {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 690px;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 20px 80px;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.btn-contact:hover {
+  transform: rotate(10deg);
+}
+
+.bxl-facebook {
+  color: #fff;
+  transition: color 0.2s;
+}
+.bxl-instagram {
+  color: #fff;
+  transition: color 0.2s;
+}
+.bxl-twitter {
+  color: #fff;
+  transition: color 0.2s;
+}
+.bxl-google-plus {
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.bxl-facebook:hover {
+  color: #3b5998;
+}
+.bxl-instagram:hover {
+  color: #833ab4;
+}
+.bxl-twitter:hover {
+  color: #1da1f2;
+}
+.bxl-google-plus:hover {
+  color: #dd4b39;
+}
